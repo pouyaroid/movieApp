@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menu_home"
+    android:icon="@drawable/baseline_home_24"
+    android:title="خانه">
+
+</item>
+    <item
+        android:id="@+id/menu_trend"
+        android:icon="@drawable/baseline_trending_up_24"
+        android:title="ترندها">
+
+    </item>
+    <item
+        android:id="@+id/menu_fav"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="مورد علاقه">
+
+    </item>
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/baseline_download_24"
+        android:title="دانلود">
+
+    </item>
+    <item
+        android:id="@+id/menu_person"
+        android:icon="@drawable/baseline_person_24"
+        android:title="پروفایل">
+
+    </item>
+
+</menu>
