@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.movieapp"
-    compileSdk = 33
+    compileSdk = 34
 
     buildFeatures{
         viewBinding=true
@@ -17,7 +17,7 @@ android {
     defaultConfig {
         applicationId = "com.example.movieapp"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -69,8 +69,8 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.4")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.4")
      //room
-    implementation("androidx.room:room-runtime:2.5.2")
-    kapt("androidx.room:room-compiler:2.52")
+   // implementation("androidx.room:room-runtime:2.5.2")
+   // kapt("androidx.room:room-compiler:2.52")
 
     //Lottie
     implementation ("com.airbnb.android:lottie:6.1.0")
